@@ -2,6 +2,11 @@
 /*           STYLE DE MON CV               */
 /* *************************************** */
 
+/* -------------------
+/*    GLOBAL
+/* -------------------
+
+
 /* Style par balises */
 body {
 	background-image: url("img/SHIELD.png"); 
@@ -54,6 +59,10 @@ footer {
 	display: inline-block;
 	vertical-align: middle;
 }
+.nav {
+	font-size: 1.5em;
+	color: #FFFFFF;
+}
 .nav:hover{
 	color: #0F3596;
 }
@@ -69,11 +78,48 @@ footer {
     vertical-align: top;
 	margin: 5px;
 }
+
+
+/* Style par id */
+
+#warper {
+	display: inline-block;
+    vertical-align: top;
+}
+
+#carte {
+	text-align: center;
+}
+#carte img {
+	box-shadow: 10px 10px 3px #000000;
+	
+}
+#carte img:hover {
+	box-shadow: 15px 15px 3px #000000;
+	
+}
+
+/* ------------------------------- */
+/*    STYLE GRD ECRANS :  > 1024px */
+/* ------------------------------- */
+
+
+@media all and (min-width: 1024px){
+
+.cache_ecran_XL {
+	display: none;
+}
 .part1, .part2, .part3{
 	width:32%;
 }
 
-/* Style par id */
+
+#warper {
+	width: 90%;
+	margin-left: 9%;
+	padding-left: 10px;
+}
+
 #liseret {
 	display: inline-block;
     vertical-align: top;
@@ -98,27 +144,57 @@ footer {
 	padding-top: 100px;
 	margin: auto;
 }
+
+#nav {
+	display: none;
+}
+}
+/* ---------------------- */
+/*    STYLE TABLETTES     */
+/* ---------------------- */
+
+@media all and (max-width: 1024px){
+
+table {
+	width:100%;
+}
+section p{
+	padding-left: 35px;
+	padding-right: 55px;
+}
+section ul, section ol {
+	padding-left: 55px;
+	padding-right: 35px;
+}
+
+.part1, .part2, .part3{
+	width:100%;
+}
+
 #warper {
-	display: inline-block;
-    vertical-align: top;
 	width: 90%;
-	margin-left: 10%;
+	margin-left: 5%;
 	padding-left: 10px;
 }
+
+#liseret{
+	display: none;
+}
+
 #nav {
 	background-color: #CAD4EE;
+	padding-left: 30px;
+	border-radius: 8px;
+}
 }
 
-#carte {
-	text-align: center;
-}
-#carte img {
-	box-shadow: 10px 10px 3px #000000;
-	
-}
-#carte img:hover {
-	box-shadow: 15px 15px 3px #000000;
-	
-}
+/* ---------------------- */
+/*    STYLE smartphone     */
+/* ---------------------- */
 
+@media all and (max-width: 760px){
 
+h1 {
+	font-size: 3em;
+}
+}
