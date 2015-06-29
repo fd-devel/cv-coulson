@@ -10,18 +10,22 @@ body {
     background-position: center; 
 
 }
-
+header {
+	margin-bottom: 70px;
+}
 h1 {
 	text-align:center;
 	font-size: 4em;
 	font-family:top_secretbold, Arial, sans-serif;
 }
-h2 {
-	color:brown;
-	border: 5px #C64119 groove;
-}
 figure {
 	float: right;
+	margin-top: 0;
+}
+h2 {
+	text-align:center;
+	color:brown;
+	border: 5px #C64119 groove;
 }
 a img {
 	border-radius: 10px;
@@ -32,18 +36,23 @@ a img:hover {
 li {
 	text-align: justify;
 }
-ul {
+ol li {
+margin-bottom:15px;
+}
+footer {
+	margin: 15px;
 }
 
 
 /* Style par classes */
+
 .top_secret {
 	font-family:top_secretbold, Arial, sans-serif;
 	text-align:center;
 }
-.nav {
-	font-size: 1.5em;
-	color: #FFFFFF;
+.align-vertical {
+	display: inline-block;
+	vertical-align: middle;
 }
 .nav:hover{
 	color: #0F3596;
@@ -55,10 +64,47 @@ ul {
 .nav_top:hover{
 	color: #8DABF8;
 }
-.lettrine {
+.section {
+	display: inline-block;
+    vertical-align: top;
+	margin: 5px;
+}
+.part1, .part2, .part3{
+	width:32%;
 }
 
 /* Style par id */
+#liseret {
+	display: inline-block;
+    vertical-align: top;
+	position: fixed;
+	width: 6%;
+	margin: 2% 2% 2% -10px;
+	height: 90%;
+	background-color: #000000;
+	box-shadow: 10px 10px 3px #2A5EB2;
+	border-radius: 0 20px 20px 0;
+	
+}
+#liseret:hover {
+	background: url('img/captain_america.png') no-repeat top center, url('img/iron_man.png') no-repeat bottom center;
+	box-shadow: 10px 10px 3px #000000; 
+}
+#in_liseret {
+	width: 25px;
+	font-size:3em;
+	color: grey;
+	word-wrap: break-word;
+	padding-top: 100px;
+	margin: auto;
+}
+#warper {
+	display: inline-block;
+    vertical-align: top;
+	width: 90%;
+	margin-left: 10%;
+	padding-left: 10px;
+}
 #nav {
 	background-color: #CAD4EE;
 }
@@ -74,6 +120,5 @@ ul {
 	box-shadow: 15px 15px 3px #000000;
 	
 }
-
 
 
