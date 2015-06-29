@@ -1,0 +1,79 @@
+/* *************************************** */
+/*           STYLE DE MON CV               */
+/* *************************************** */
+
+/* Style par balises */
+body {
+	background-image: url("img/SHIELD.png"); 
+	background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+
+}
+
+h1 {
+	text-align:center;
+	font-size: 4em;
+	font-family:top_secretbold, Arial, sans-serif;
+}
+h2 {
+	color:brown;
+	border: 5px #C64119 groove;
+}
+figure {
+	float: right;
+}
+a img {
+	border-radius: 10px;
+}
+a img:hover {
+	box-shadow: 10px 10px 3px #2A5EB2;
+}
+li {
+	text-align: justify;
+}
+ul {
+}
+
+
+/* Style par classes */
+.top_secret {
+	font-family:top_secretbold, Arial, sans-serif;
+	text-align:center;
+}
+.nav {
+	font-size: 1.5em;
+	color: #FFFFFF;
+}
+.nav:hover{
+	color: #0F3596;
+}
+.nav_top {
+	font-size: 0.5em;
+	color: #CCDBFF;
+}
+.nav_top:hover{
+	color: #8DABF8;
+}
+.lettrine {
+}
+
+/* Style par id */
+#nav {
+	background-color: #CAD4EE;
+}
+
+#carte {
+	text-align: center;
+}
+#carte img {
+	box-shadow: 10px 10px 3px #000000;
+	
+}
+#carte img:hover {
+	box-shadow: 15px 15px 3px #000000;
+	
+}
+
+
+
